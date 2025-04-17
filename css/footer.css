@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer .icon-footer {
+  display: flex;
+  align-items: center;
+}
+.footer .icon-footer .email-icon {
+  width: 20px;
+  height: 18px;
+  margin-left: 5px;
+}
+.footer .icon-footer .linkedin-icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+.footer .icon-footer .github-icon {
+  width: 20px;
+  height: 19.29px;
+  margin-left: 20px;
+}/*# sourceMappingURL=footer.css.map */

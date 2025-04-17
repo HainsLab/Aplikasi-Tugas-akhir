@@ -1,0 +1,105 @@
+.sidebar {
+    width: 208px; /* Tentukan lebar sidebar */
+    height: 571px; /* Buat sidebar setinggi halaman */
+    margin-right: 45px;
+    position: fixed;
+    background-color: white;
+    .batas{
+        font-size: 0px;
+        
+    }
+
+    .profile-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 45px;
+        margin-top: 32px;
+
+        .profile-image {
+            img {
+                border-radius: 50%;
+                width: 48px;
+                height: 48px;
+                object-fit: cover;
+            }
+        }
+
+        .profile-details {
+            margin-left: 15px;
+            p {
+                margin: 0;
+                font-family: "Inter";
+                font-size: 14px;
+            }
+
+            .Nama {
+                font-weight: 600;
+            }
+
+            .Npm {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .menu-item-icon {
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: left; /* Agar konten berada di tengah secara horizontal */
+        max-width: 200px; /* Lebar kotak */
+        height: 47.4px; /* Tinggi kotak */
+        border-radius: 6px; /* Membuat sudut kotak membulat */
+        gap: 15px;
+        padding-left: 10px;
+        border: 1px solid black;
+        font-weight: 600;
+
+        &:hover {
+            background-color: black;
+            .icon-home-inactive {
+                content: url("../Asset/Icon/home-active.png");
+            }
+            .icon-latar-belakang-inactive {
+                content: url("../Asset/Icon/latar-bekang-active.png");
+            }
+            .icon-aplikasi-inactive {
+                content: url("../Asset/Icon/aplikasi-active.png");
+            }
+            .icon-data-inactive {
+                content: url("../Asset/Icon/Data-active.png");
+            }
+            .icon-about-me-inactive {
+                content: url("../Asset/Icon/about-me-active.png");
+            }
+            .icon-contact-inactive {
+                content: url("../Asset/Icon/contact-active.png");
+            }
+            .icon-logout-inactive {
+                content: url("../Asset/Icon/logout-active.png");
+            }
+            span.home,
+            .latar-belakang,
+            .aplikasi,
+            .about-me,
+            .contact,
+            .logout {
+                color: white;
+            }
+        }
+    }
+
+    .menu-item-icon img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .menu_item {
+        list-style-type: none;
+        margin-top: 45px;
+    }
+
+    .menu_item li.item {
+        margin-bottom: 15px;
+    }
+}

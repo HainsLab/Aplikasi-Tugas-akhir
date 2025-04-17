@@ -1,0 +1,93 @@
+.sidebar {
+  width: 208px; /* Tentukan lebar sidebar */
+  height: 571px; /* Buat sidebar setinggi halaman */
+  margin-right: 45px;
+  position: fixed;
+  background-color: white;
+}
+.sidebar .batas {
+  font-size: 0px;
+}
+.sidebar .profile-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+  margin-top: 32px;
+}
+.sidebar .profile-container .profile-image img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sidebar .profile-container .profile-details {
+  margin-left: 15px;
+}
+.sidebar .profile-container .profile-details p {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 14px;
+}
+.sidebar .profile-container .profile-details .Nama {
+  font-weight: 600;
+}
+.sidebar .profile-container .profile-details .Npm {
+  font-weight: 400;
+}
+.sidebar .menu-item-icon {
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: left; /* Agar konten berada di tengah secara horizontal */
+  max-width: 200px; /* Lebar kotak */
+  height: 47.4px; /* Tinggi kotak */
+  border-radius: 6px; /* Membuat sudut kotak membulat */
+  gap: 15px;
+  padding-left: 10px;
+  border: 1px solid black;
+  font-weight: 600;
+}
+.sidebar .menu-item-icon:hover {
+  background-color: black;
+}
+.sidebar .menu-item-icon:hover .icon-home-inactive {
+  content: url("../Asset/Icon/home-active.png");
+}
+.sidebar .menu-item-icon:hover .icon-latar-belakang-inactive {
+  content: url("../Asset/Icon/latar-bekang-active.png");
+}
+.sidebar .menu-item-icon:hover .icon-aplikasi-inactive {
+  content: url("../Asset/Icon/aplikasi-active.png");
+}
+.sidebar .menu-item-icon:hover .icon-data-inactive {
+  content: url("../Asset/Icon/Data-active.png");
+}
+.sidebar .menu-item-icon:hover .icon-about-me-inactive {
+  content: url("../Asset/Icon/about-me-active.png");
+}
+.sidebar .menu-item-icon:hover .icon-contact-inactive {
+  content: url("../Asset/Icon/contact-active.png");
+}
+.sidebar .menu-item-icon:hover .icon-logout-inactive {
+  content: url("../Asset/Icon/logout-active.png");
+}
+.sidebar .menu-item-icon:hover span.home,
+.sidebar .menu-item-icon:hover .latar-belakang,
+.sidebar .menu-item-icon:hover .aplikasi,
+.sidebar .menu-item-icon:hover .about-me,
+.sidebar .menu-item-icon:hover .contact,
+.sidebar .menu-item-icon:hover .logout {
+  color: white;
+}
+.sidebar .menu-item-icon img {
+  width: 24px;
+  height: 24px;
+}
+.sidebar .menu_item {
+  list-style-type: none;
+  margin-top: 45px;
+}
+.sidebar .menu_item li.item {
+  margin-bottom: 15px;
+}/*# sourceMappingURL=sidebar.css.map */

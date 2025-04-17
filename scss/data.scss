@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  color: black;
+  text-decoration: none;
+}
+body {
+  min-height: 100vh;
+  background: white;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-top: 1px;
+  padding-bottom: 32px;
+}
+.atas {
+  margin-left: 252px;
+}
+.konten {
+  margin-left: 252px;
+  width: 720px;
+  text-align: justify;
+  margin-top: 170px;
+ 
+}
+.border {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+.teknologi {
+  display: flex;
+  gap: 30px;
+}
+.table-container {
+    width: 100%;
+    border-collapse: collapse; /* Menggabungkan border antar sel */
+    font-size: 14px;
+    text-align: left; /* Menjaga agar teks tabel rata kiri */
+    margin-top: 20px; /* Memberi sedikit jarak di atas tabel */
+}
+
+.table-container th, .table-container td {
+    padding: 12px 15px; /* Memberi padding pada sel */
+    border: 1px solid #ddd; /* Border yang halus */
+}
+
+.table-container th {
+    background-color: #f4f4f4; /* Warna latar belakang untuk heading */
+    font-weight: bold; /* Heading lebih tebal */
+}
+
+.table-container tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Warna latar belakang untuk baris ganjil */
+}
+
+.table-container tr:hover {
+    background-color: #e2e2e2; /* Highlight saat baris di-hover */
+}
+
+.table-container td {
+    vertical-align: middle; /* Menjaga agar teks di tengah vertikal */
+}
+
+.table-container th {
+    text-align: center; /* Heading tabel rata tengah */
+}
+
+.table-container tr {
+    transition: background-color 0.3s ease; /* Animasi halus untuk efek hover */
+}
+
+
+

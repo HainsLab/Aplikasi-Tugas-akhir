@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  background: white;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-top: 1px;
+  padding-bottom: 32px;
+}
+
+.atas {
+  margin-left: 252px;
+}
+
+.konten {
+  margin-left: 252px;
+  width: 720px;
+  text-align: justify;
+  margin-top: 170px;
+}
+.konten .sub-title {
+  margin-bottom: 30px;
+}
+.konten .isi-konten .text {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.konten .isi-konten #keperluan {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.konten .isi-konten #performaRender {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.konten .isi-konten #tahun {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.konten .isi-konten #brandSelect {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.konten .isi-konten #secondary {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.konten .isi-konten #katgame {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.konten .isi-konten #Price {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.konten .isi-konten #PCIe {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.konten .isi-konten #resolusi {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.konten .isi-konten #PSU {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.konten .isi-konten #casing {
+  height: 40px;
+  width: 720px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.paragraf-1 {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.border {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.custom-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.custom-button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.table-container {
+  width: 100%;
+  border-collapse: collapse; /* Menggabungkan border antar sel */
+  font-size: 14px;
+  text-align: left; /* Menjaga agar teks tabel rata kiri */
+  margin-top: 20px; /* Memberi sedikit jarak di atas tabel */
+}
+
+.table-container th, .table-container td {
+  padding: 12px 15px; /* Memberi padding pada sel */
+  border: 1px solid #ddd; /* Border yang halus */
+}
+
+.table-container th {
+  background-color: #f4f4f4; /* Warna latar belakang untuk heading */
+  font-weight: bold; /* Heading lebih tebal */
+  text-align: center; /* Heading tabel rata tengah */
+}
+
+.table-container tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Warna latar belakang untuk baris ganjil */
+}
+
+.table-container tr:hover {
+  background-color: #e2e2e2; /* Highlight saat baris di-hover */
+}
+
+.table-container td {
+  vertical-align: middle; /* Menjaga agar teks di tengah vertikal */
+}
+
+.table-container tr {
+  transition: background-color 0.3s ease; /* Animasi halus untuk efek hover */
+}/*# sourceMappingURL=aplikasi.css.map */

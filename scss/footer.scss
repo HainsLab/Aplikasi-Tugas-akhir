@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .footer-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .icon-footer {
+    display: flex;
+    align-items: center;
+    .email-icon {
+      width: 20px;
+      height: 18px;
+      margin-left: 5px;
+    }
+    .linkedin-icon {
+      width: 18px;
+      height: 18px;
+      margin-left: 20px;
+      margin-left: 20px;
+    }
+    .github-icon {
+      width: 20px;
+      height: 19.29px;
+      margin-left: 20px;
+    }
+  }
+}
+

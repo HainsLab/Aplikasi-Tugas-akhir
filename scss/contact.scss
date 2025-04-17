@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  color: black;
+  text-decoration: none;
+}
+body {
+  min-height: 100vh;
+  background: white;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-top: 1px;
+  padding-bottom: 32px;
+}
+.atas {
+  margin-left: 252px;
+}
+.konten {
+  margin-left: 252px;
+  width: 720px;
+  text-align: justify;
+  margin-top: 170px;
+}
+.border {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+.teknologi {
+  display: flex;
+  gap: 30px;
+}
+.box-github {
+  width: 170px;
+  height: 46px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: left;
+  background-color: black;
+  border-radius: 6px; /* Membuat sudut kotak membulat */
+  align-items: center;
+  .logo-github {
+    width: 24px;
+    height: 24px;
+    margin-left: 42px;
+    margin-right: 8px;
+  }
+  .text-logo {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-right: 42px;
+  }
+}
+.box-linkedin {
+  width: 170px;
+  height: 46px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: left;
+  border-radius: 6px; /* Membuat sudut kotak membulat */
+  background-color: #0a66c2;
+  align-items: center;
+  .logo-scss {
+    width: 24px;
+    height: 24px;
+    margin-left: 37px;
+    margin-right: 8px;
+  }
+  .text-logo {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-right: 37px;
+  }
+}
+.box-instagram {
+  width: 170px;
+  height: 46px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: left;
+  border-radius: 6px;
+  background: linear-gradient(to right,#F9CE34 0%, #EE2A7B 50%, #6228D7 100%);
+  align-items: center;
+  .logo-instagram {
+    width: 24px;
+    height: 24px;
+    margin-left: 31px;
+    margin-right: 10px;
+  }
+  .text-logo {
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    margin-right: 31px;
+  }
+}
